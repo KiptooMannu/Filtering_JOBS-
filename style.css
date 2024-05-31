@@ -98,3 +98,15 @@ main {
     padding: 25px 1.5em 1em;
     min-height: 100vh;
 }
+
+.container {
+    box-shadow: var(--shadow);
+    border-radius: 7px;
+    margin: 2em auto 2.5em;
+    padding: 40px 1em 1em;
+    position: relative;
+}
+
+.container.remove {
+    animation: remove .5s ease-in-out forwards;
+}
