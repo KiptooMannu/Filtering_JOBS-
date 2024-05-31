@@ -229,5 +229,37 @@ main {
 .tags button:hover {
     color: var(--filter-cyan);
     background-color: var(--dark-cyan);
-}
 
+}
+@media (min-width: 700px) {
+    .container img {
+        position: static;
+        transform: unset;
+        bottom: unset;
+        width: 70px;
+        height: 70px;
+        margin-right: .5em;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        padding: 1em;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .head {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tags>* {
+        height: 40px;
+    }
+}
