@@ -80,3 +80,21 @@ header {
 .filter-sub img {
     margin: auto;
 }
+.clear {
+    color: var(--dark-gray-cyan);
+    background: none;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.clear:hover {
+    color: var(--dark-cyan);
+    text-decoration: underline;
+}
+
+main {
+    padding: 25px 1.5em 1em;
+    min-height: 100vh;
+}
