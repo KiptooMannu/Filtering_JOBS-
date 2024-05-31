@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --dark-cyan: hsl(180, 29%, 50%);
     --bg-cyan: hsl(180, 52%, 96%);
@@ -25,4 +26,57 @@ header {
     background-color: var(--dark-cyan);
     background-position: center;
     background-size: cover;
+}
+.filter {
+    width: 100%;
+    position: relative;
+    background: white;
+    height: auto;
+    padding: 16px;
+    margin: auto;
+    bottom: 50px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    max-width: 1000px;
+    display: none;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.span {
+    display: inline-block;
+    background: var(--filter-cyan);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 3px;
+}
+
+.filter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-sub p {
+    padding: .5em;
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--dark-cyan)
+}
+
+.filter-sub button {
+    height: 30px;
+    aspect-ratio: 1;
+    background: var(--dark-cyan);
+    border: none;
+    cursor: pointer;
+    transition: .13s ease;
+}
+
+.filter-sub button:hover {
+    background: var(--very-dark-cyan);
+}
+
+.filter-sub img {
+    margin: auto;
 }
