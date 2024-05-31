@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Spartan:wght@500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-cyan: hsl(180, 29%, 50%);
+    --bg-cyan: hsl(180, 52%, 96%);
+    --filter-cyan: hsl(180, 31%, 95%);
+    --dark-gray-cyan: hsl(180, 8%, 52%);
+    --very-dark-cyan: hsl(180, 14%, 20%);
+
+    --shadow: 0 5px 30px 10px hsl(180, 29%, 50%, .2);
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+}
+header {
+    min-height: 150px;
+    background-color: var(--dark-cyan);
+    background-position: center;
+    background-size: cover;
+}
